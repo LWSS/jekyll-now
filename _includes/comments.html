@@ -1,25 +1,22 @@
 <div class="comments" id="comments-section">
 	<script type="text/javascript">
+		// Goes on the repo and looks for commits on that day that have the message "comments", then links the commit
 		var date = new Date(document.getElementById("date-store").getAttribute("title"));
-        console.log( date );
         date.setHours( 0 );
 		date.setMinutes( 0 );
 		date.setSeconds( 0 );
-        console.log( date );
         var dateGMT_ISO8601_start = date.toUTCString();
 		date.setHours( 24 );
 		var dateGMT_ISO8601_end = date.toUTCString();
 		var commits = new XMLHttpRequest();
 		commits.addEventListener("load", function(){
 		   var response = JSON.parse( this.responseText );
-		   console.log("start(" + dateGMT_ISO8601_start + ") - end(" + dateGMT_ISO8601_end + ")" );
-		   console.log( response );
 		   for( var i = 0; i < response.length; i++ ){
 			   var meantForComments = response[i]["commit"]["message"].includes("comments");
 			   if( !meantForComments )
 			       continue;
-			   console.log( "winning commit: " + response[i] );
-			   document.getElementsByClassName("comments-section").innerHTML = "<a href=\"" + response[i]["comments_url"] + "\"> Comment on this Post </a>";
+			   console.log( "comment commit: " + response[i]["sha"]);
+			   document.getElementById("comments-section").innerHTML = "<a href='https://github.com/LWSS/lwss.github.io/commit/" + response[i]['sha'] + "#all_commit_comments'> Comment on this Post </a>";
 		   }
 		});
 		commits.open("GET", "https://api.github.com/repos/LWSS/lwss.github.io/commits?since=" + dateGMT_ISO8601_start + "&until=" + dateGMT_ISO8601_end );
