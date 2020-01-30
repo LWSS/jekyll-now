@@ -11,7 +11,8 @@ layout: default
 
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
+    <div id="date-store" title="{{ page.date | date: "%FT%T" }}"></div>
   </div>
 
-  {% include disqus.html %}
+  {% include comments.html %}
 </article>
