@@ -82,6 +82,7 @@ As an anarchist Dota 2 Virologist(and [Necrophos](https://gamepedia.cursecdn.com
 
 Therefore I have added this to my free Dota 2 CRISPR-kit, McDota for a limited time only.
 
+![ingame](../images/ingame.png)
 
 ## Cures
 * Don't register this handler on valve servers
