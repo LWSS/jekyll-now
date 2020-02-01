@@ -71,7 +71,7 @@ I abandoned the match and went to do more research...
 #### Impact Score:
 * Security [0/10]
 * Disruptive [5/10]
-* Ease [3/10]
+* Ease [4/10]
 
 *Overall*: 9/30 = 3/10, amusing but not harmful or majorly disruptive.
 
