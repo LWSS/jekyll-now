@@ -84,7 +84,28 @@ Therefore I have added this to my free Dota 2 CRISPR-kit, McDota for a limited t
 
 ![ingame](../images/ingame.png)
 
-## Cures
+## ~~Cures~~
 * Don't register this handler on valve servers
 * Check for demo mode / local server
 * remove this feature
+
+## Antibodies - Update
+Even on Sunday, the white blood cells at Valve are at work. 
+
+The February 2nd update has killed the bug. Let's take a quick look...
+
+Here's the old handler function again for reference
+
+![handler](../images/handler.png)
+
+And the New one
+
+![newhandler](../images/newhandler.png)
+
+*(does literally nothing)*
+
+As it turns out, the last hit trainer did not actually require the ability to modify those convars in order to work.
+These must have been leftovers from another version.
+
+And this is the end for this exploit. Fear not though, for Dota is a very big and old game. 
+Us basement researchers will continue to study the Dota DNA looking for the secrets it holds.
