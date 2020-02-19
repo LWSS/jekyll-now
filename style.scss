@@ -18,14 +18,14 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
+	background: #d3d3d3;
+  font: 15px/1.4 $helvetica;
   color: $darkGray;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 960px;
   padding: 0 10px;
   width: 100%;
 }
@@ -99,6 +99,7 @@ ul ul, ol ul {
 }
 
 em, i {
+  font-size: 14px;
   font-style: italic;
 }
 
@@ -257,7 +258,6 @@ nav {
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
-    font-size: 22px;
     font-style: italic;
   }
 
