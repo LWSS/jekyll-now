@@ -165,11 +165,21 @@ I fed him into the tower a few times while he freaked out. The next day, he was 
 
 Sins of the Father, I guess. 
 
+#### Update 4/08
+Someone at Valve is still fuming, after seeing my friends' ban appeals they decided to ban everyone even more!
+![lolvac](../images/lolvac.png)
+> detected, lol
 
+They even did an item wipe, wow they are real mad!
+![itemwipe](../images/itemwipe.png)
+
+Double kill!
+![dub](../images/doublekill.png)
+
+I'm gonna open a ban appeal now lol, stay tuned.
 ## Resolution
 
 Valve patched the bug April 2nd, marking the end of the Dota April Fool's day exploit.
-
 
 #### Why don't you tell Valve about these exploits?
 I have heard this from multiple people, there are a few reasons for this:
