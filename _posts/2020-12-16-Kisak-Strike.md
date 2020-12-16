@@ -730,4 +730,4 @@ Please note that this code is property of Valve-Software and any contributions t
 
 This one was pretty long, but I tried to keep it entertaining. Lots of stuff was left out in order to keep this readable, but I think I covered everything big.
 
-Good luck gamers!
+Good luck gamers, and have a Merry Christmas!
