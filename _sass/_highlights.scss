@@ -21,12 +21,14 @@ div.highlight {
   margin: 20px 0 20px 0;
 }
 
+pre.highlight {
+  background: #bfbfbf;
+}
 code {
   font-family:'Lucida Console','Monaco', monospace;
   font-size: 13px;
   padding: 1px 5px;
   white-space: pre-wrap;
-  background-color: #bbccbb;
 }
 
 .language-cpp {
